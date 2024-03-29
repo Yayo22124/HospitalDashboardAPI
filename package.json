@@ -1,0 +1,24 @@
+{
+  "name": "hospital_8a_2024",
+  "version": "1.0.0",
+  "description": "Proyecto Académico Nivel Ingeniería, que intercatuará con las BD's SQL y NoSQL para la gestión de información",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/server.js",
+    "start:prod": "node src/server.js"
+  },
+  "author": "M.T.I. Marco A. Ramírez Hernández",
+  "license": "ISC",
+  "dependencies": {
+    "@amcharts/amcharts5": "^5.8.6",
+    "@amcharts/amcharts5-fonts": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "mysql2": "^3.9.2",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.1",
+    "sequelize-auto": "^0.8.8",
+    "socket.io": "^4.7.5"
+  }
+}
